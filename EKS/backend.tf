@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "ajay-project16"  # Replace with your actual S3 bucket name
+    bucket = "ravi-project-s3bucket"  # Replace with your actual S3 bucket name
     key    = "EKS/terraform.tfstate"  
-    region = "us-east-2" 
+    region = "ap-south-1" 
   }
 }
